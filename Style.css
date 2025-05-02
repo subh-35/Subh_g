@@ -1,0 +1,159 @@
+*{
+  margin: 0;
+}
+.head{
+  background:  #4c4d4d;
+}
+.resume{
+  border: 2px solid #f85d70;
+  border-radius: 30px;
+  padding: 10px;
+  margin-left: 30px;
+  background: #f85d70;
+  
+}
+.resumea{
+  text-decoration: none;
+  color: whitesmoke
+}
+.headhel{
+  font-weight: 200;
+  padding-top: 150px;
+  padding-left:20px;
+  padding-bottom: 10px;
+  color: white;
+  font-size: calc(20px + (45 - 20) * ((100vw - 300px) / (1600 - 300)));
+}
+.headsk{
+  font-weight: bold;
+  padding-left:20px;
+  padding-bottom: 25px;
+  color: white;
+  font-size: calc(40px + (120 - 40) * ((100vw - 300px) / (1600 - 300)));
+  line-height: .7;
+}
+.headab{
+  font-weight: 500;
+  padding-left:20px;
+  padding-bottom: 50px;
+  color: white ;
+  font-size: calc(12px + (19 - 12) * ((100vw - 300px) / (1600 - 300)));
+  letter-spacing: 5px;
+}
+.sp1{
+  padding-bottom: 70px;
+}
+
+#navbar {
+  position: sticky;
+  top: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+#navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+#navbar a:hover {
+  background-color: #ddd;
+  color: black;
+} 
+#navbar i{
+  
+  font-size: 29px;
+  padding: 0;
+  
+}
+.who,.info{
+  font-weight: 200;
+  font-size: 30px;
+  margin: auto;
+  width: 70%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  
+}
+.who p{
+  border-left: 2px solid red;
+  padding-left: 5px;
+}
+.info p{
+  border-left: 2px solid red;
+  padding-left: 5px;
+  margin-top: 80px;
+}
+.about{
+  margin: auto;
+  width: 70%;
+  font-size: 20px;
+  
+}
+.about2{
+  margin: auto;
+  width: 70%;
+  font-size: 13px;
+  padding-top: 20px;
+}
+.cva{
+  text-decoration: none;
+  color: #f85d70;
+  border: 1px solid #f85d70;
+  padding: 10px;
+}
+.cv{
+  padding-top: 40px;
+  margin: auto;
+  width: 70%;
+  
+}
+.personal span{
+  font-weight: 400;
+}
+.info1 p{
+  margin: auto;
+  width: 70%;
+  padding: 8px;
+}
+.info1 i{
+  font-size: 22px;
+}
+.info1 span{
+  color: #787982;
+}
+.footer{
+  background: #595959;
+  height: 50px;
+  
+}
+.footer div{
+  text-align: center;
+  padding-top: 20px;
+  color: whitesmoke;
+}
+.exph , .expp{
+  margin: auto;
+  width: 55%;
+}
+.expbody h6{
+  padding-bottom: 10px;
+  font-size: 17px;
+  font-weight: 500;
+}
+.expbody p{
+  padding-bottom: 3px;
+  color: #787982;
+  font-size:12px;
+}
+.expbody hr{
+  margin: auto;
+  width: 55%;
+  margin-bottom: 27px;
+  font-weight: 10;
+}
